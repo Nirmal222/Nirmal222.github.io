@@ -1,0 +1,27 @@
+.bar{
+    background-color: rgb(46, 46, 46);
+    display: block;
+    height: 6x;
+    padding: 2px;
+    /* border: 1px solid rgba(0,0,0,0.3); */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.bar span{
+    height: 6px;
+    float: left;
+    background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+}
+.skill{
+    border-radius: 10px;
+    width: 90%;
+    animation: skill .3s;
+}
+.profile{
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    width: 40vw;
+    margin-left: 3rem;
+}
