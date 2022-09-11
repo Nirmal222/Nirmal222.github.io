@@ -21,17 +21,23 @@
 .profile{
     z-index: 1;
     position: absolute;
-    top: 25%;
-    /* right: 3.5%; */
+    top: 28%;
     width: 40vw;
-    margin-left: 3.5rem;
+    margin-left: 3.5rem; 
+    margin-right: 3rem;
     color: white;
 }
 .profile>p{
     color: white;
     font-weight: 700;
 }
-
+.from{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 .greet{
     overflow-y: hidden;
 }
@@ -45,7 +51,16 @@
     top: 25%;
 }
 
-
+.web{
+    background-color: aliceblue;
+    /* padding: 3rem; */
+    /* border-radius: 50%; */
+    /* width: 7vw; */
+    /* height: 7vw; */
+}
+.web>span{
+    color: black;
+}
 
 
 .wave {

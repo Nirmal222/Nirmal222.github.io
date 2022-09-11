@@ -5,8 +5,12 @@ const Profile = () => {
     return (
         <Box>
           <Box className={stylesDark.profile}>
-            <Text fontSize={'6xl'} className={stylesDark.greet}>Bonjour!<span className={stylesDark.wave}>👋</span></Text>
-            <Text fontSize={'7xl'}><span className='from'>Welcome Homecd <nav></nav></span>, <br /> Nice To Meet You!</Text>
+            <Text fontSize={['3xl','4xl','6xl']} className={stylesDark.greet}>Bonjour!<span className={stylesDark.wave}>👋</span></Text>
+            <Text fontSize={['3xl','4xl','7xl']}><span className='from'>Welcome Home</span>,<br />Nice To Meet You!</Text>
+          </Box>
+
+          <Box className={stylesDark.profile} position={'absolute'} right={'1%'} top={'35%'}>
+            <Text fontSize={['lg']} className={stylesDark.web}><span>Tap to Explore</span></Text>
           </Box>
         </Box>
     );

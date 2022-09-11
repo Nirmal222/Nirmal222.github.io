@@ -6,7 +6,7 @@
   font-family: 'Abril Fatface', cursive;
   font-size: 30px;
   cursor: pointer;
-  padding-left: 3rem;
+  padding-left: 4rem;
 }
 
 #navMenu{
@@ -48,7 +48,7 @@
 
 .smallshapes{
   overflow-y: hidden;
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 .shapes{
   opacity: 1;
