@@ -43,11 +43,11 @@ const AboutMe = () => {
       id="aboutme"
     >
       <Text
-        fontSize={"2rem"}
-        fontWeight={650}
-        textAlign={"center"}
-        color={"white"}
-        pt={"1rem"}
+        fontSize={["2rem"]}
+        fontWeight={[650]}
+        textAlign={["center"]}
+        color={["white"]}
+        pt={["1rem"]}
       >
         Get to Know About Me
       </Text>
@@ -55,14 +55,14 @@ const AboutMe = () => {
       {/* backup comes here */}
       <Grid
         // templateColumns={["100%", "100%", "100%", "60% 40%"]}
-        // gap={["0rem", "0rem", "0rem"]}
+        gap={["0rem", "0rem", "0rem"]}
         display={["grid", "grid", "none"]}
-        alignContent={"center"}
-        w={"90vw"}
-        h={"80vh"}
-        m={"auto"}
-        mt={"2rem"}
-        bg={"black"}
+        alignContent={["center"]}
+        w={["90vw"]}
+        h={["80vh"]}
+        m={["auto"]}
+        mt={["2rem"]}
+        bg={["black"]}
       >
         {/* 2nd */}
         <Flex>
@@ -88,15 +88,15 @@ const AboutMe = () => {
           {sets.map((item) => (
             <Grid
               key={item.id}
-              justifyContent={"center"}
+              justifyContent={["center"]}
               margin={"auto"}
               alignItems={"center"}
               bg={"#4158D0"}
               backgroundImage={[
                 "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
               ]}
-              w={"8rem"}
-              h={"8rem"}
+              w={["8rem"]}
+              h={["8rem"]}
               borderRadius={"5%"}
             >
               <Box>
@@ -104,17 +104,17 @@ const AboutMe = () => {
                   className="stroke"
                   fontSize={["xl", "xl", "2xl"]}
                   textAlign={"center"}
-                  color={"white"}
-                  fontWeight={700}
+                  color={["white"]}
+                  fontWeight={[700]}
                 >
                   {item.title}
                 </Text>
                 <Text
                   className="stroke"
                   fontSize={["1rem", ".5rem", ".8rem"]}
-                  fontWeight={700}
-                  textAlign={"center"}
-                  color={"white"}
+                  fontWeight={[700]}
+                  textAlign={["center"]}
+                  color={["white"]}
                 >
                   {item.tag}
                 </Text>
@@ -129,18 +129,18 @@ const AboutMe = () => {
         gap={["4rem", "4rem", "0rem"]}
         display={["none", "none", "grid"]}
         alignContent={["center"]}
-        w={"90vw"}
-        h={"80vh"}
-        m={"auto"}
-        mt={"2rem"}
-        bg={"black"}
+        w={["90vw"]}
+        h={["80vh"]}
+        m={["auto"]}
+        mt={["2rem"]}
+        bg={["black"]}
       >
         {/* 2nd */}
 
         <Grid
           display={["none", "none", "block"]}
-          templateRows={"20% 80%"}
-          gap={"1rem"}
+          templateRows={[, "20% 80%"]}
+          gap={["1rem"]}
           // border={["2px solid white"]}
         >
           {/* 3rd */}
@@ -154,8 +154,8 @@ const AboutMe = () => {
 
               color={"white"}
               fontSize={["xl", "xl", "lg", "xl"]}
-              fontWeight={600}
-              textAlign={"center"}
+              fontWeight={[600]}
+              textAlign={["center"]}
             >
               Always Looking to solve problems with tech, Putting innovation at
               core of solving the problems. And a Fullstack Engineer holding
@@ -174,18 +174,18 @@ const AboutMe = () => {
             ]}
             // gap={['1rem','1rem','1rem','']}
             height={"100%"}
-            alignItems={"center"}
+            alignItems={["center"]}
           >
             {sets.map((item) => (
               <Grid
                 key={item.id}
-                justifyContent={"center"}
+                justifyContent={["center"]}
                 margin={"auto"}
                 alignItems={"center"}
                 bg={"#4158D0"}
-                backgroundImage={[
-                  "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
-                ]}
+                // backgroundImage={[
+                //   "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
+                // ]}
                 w={["15rem", "6rem", "6rem", "10rem"]}
                 h={["15rem", "6rem", "6rem", "10rem"]}
                 borderRadius={"5%"}
@@ -195,17 +195,17 @@ const AboutMe = () => {
                     className="stroke"
                     fontSize={["lg", "xl", "xl"]}
                     textAlign={"center"}
-                    color={"white"}
-                    fontWeight={700}
+                    color={["white"]}
+                    fontWeight={[700]}
                   >
                     {item.title}
                   </Text>
                   <Text
                     className="stroke"
                     fontSize={["xl", "xl", "xl"]}
-                    fontWeight={700}
-                    textAlign={"center"}
-                    color={"white"}
+                    fontWeight={[700]}
+                    textAlign={["center"]}
+                    color={["white"]}
                   >
                     {item.tag}
                   </Text>

@@ -1,16 +1,10 @@
-*{
-  overflow-x: hidden;
-}
-
 #logo{
   font-family: 'Abril Fatface', cursive;
   font-size: 30px;
   cursor: pointer;
-  padding-left: 4rem;
 }
 
 #navMenu{
-  display: flex;
   width: 45vw;
   justify-content: space-around;
   font-weight: 600;
@@ -31,7 +25,6 @@
   z-index: 100;
   background-color: transparent;
   justify-content:space-between;
-  transition: 0.5s ease-in-out;
 }
 
 .navbar.scroll{
@@ -42,14 +35,134 @@
 
 
 /* Home Page */
+.home{
+  /* border: 2px solid white; */
+
+}
 .mainContent-Home{
-  border: 1p solid white;
+  /* border: 2px solid white; */
+}
+.listSkills{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  align-items: center;
+}
+li{
+  list-style: none;
+}
+.listSkills>li:nth-child(1){
+  color: green;
+}
+.listSkills>li:nth-child(2){
+  color: white;
+}
+.listSkills>li:nth-child(3){
+  color: #61DBFB;
+}
+.listSkills>li:nth-child(4){
+  color:#8bc34a;
+}
+.motion{
+  padding: 7;
 }
 
-.smallshapes{
-  overflow-y: hidden;
-  /* opacity: 0.7; */
+/* Aboutme */
+.stroke{
+  -webkit-text-stroke-width: .5px;
+  /* -webkit-text-stroke-color: green; */
+  /* -webkit-text-stroke-blur: 3px; */
 }
-.shapes{
-  opacity: 1;
+
+/* Skills */
+
+.skillsTitle{
+ padding-top: 1rem;
+ color: white;
 }
+.frontendTitle,.backendTitle{
+  color:white;
+}
+.frontendSkills{
+  align-items: center;
+}
+.frontendSkills>li{
+  list-style: none;
+  margin: auto;
+}
+.frontendSkills>li:nth-child(1){
+  color: #e96228;
+}
+.frontendSkills>li:nth-child(2){
+  color: #2862e8;
+}
+.frontendSkills>li:nth-child(3){
+  color: #f0d91e;
+}
+.frontendSkills>li:nth-child(4){
+  color:#61DBFB;
+}
+.frontendSkills>li:nth-child(5){
+  color:#29b9ad;
+}
+.frontendSkills>li:nth-child(6){
+  color:#29a9f4;
+}
+.frontendSkills>li:nth-child(7){
+  color:#7248b6;
+}
+.frontendSkills>li:nth-child(8){
+  color:#e85824;
+}
+
+
+/* backendSkills */
+.backendSkills{
+  align-items: center;
+}
+.backendSkills>li{
+  list-style: none;
+  margin: auto;
+}
+.backendSkills>li:nth-child(1){
+  color: green;
+}
+.backendSkills>li:nth-child(2){
+  color: white;
+}
+.backendSkills>li:nth-child(3){
+  color: #7fc629;
+}
+.backendSkills>li:nth-child(4){
+  color:#8d4b91;
+}
+.backendSkills>li:nth-child(5){
+  color:#c60100;
+}
+.backendSkills>li:nth-child(6){
+  color:white;
+}
+.backendSkills>li:nth-child(7){
+  color:#7248b6;
+}
+.backendSkills>li:nth-child(8){
+  color:#e85824;
+}
+
+
+/* projects */
+
+.button_show{
+  scale: 5;
+}
+.button_git{
+  scale: 3;
+}
+.with-linear-gradient {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #282C35;
+  /* border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1; */
+}
+

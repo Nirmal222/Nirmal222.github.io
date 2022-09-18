@@ -1,17 +1,15 @@
 import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
+import Card from '../Card/Card';
 import stylesDark from './ProfileDark.module.css'
 const Profile = () => {
     return (
-        <Box>
-          <Box className={stylesDark.profile}>
-            <Text fontSize={['3xl','4xl','6xl']} className={stylesDark.greet}>Bonjour!<span className={stylesDark.wave}>👋</span></Text>
-            <Text fontSize={['3xl','4xl','7xl']}><span className='from'>Welcome Home</span>,<br />Nice To Meet You!</Text>
+        <Box >
+          <Box className={stylesDark.profile} ml={[0,'0','3.5rem','3.5rem']} textAlign={['center','center','left','left']}>
+            <Text fontSize={['2xl','4xl','4xl','5xl']} display={['none','none','block']} className={stylesDark.greet}>Hello!<span className={stylesDark.wave}>👋</span></Text>
+            <Text fontSize={['2xl','2xl','2.2xl','5xl']} w={'100%'} className={stylesDark.meetya}>Nice To Meet You!</Text>
           </Box>
 
-          <Box className={stylesDark.profile} position={'absolute'} right={'1%'} top={'35%'}>
-            <Text fontSize={['lg']} className={stylesDark.web}><span>Tap to Explore</span></Text>
-          </Box>
         </Box>
     );
 }
