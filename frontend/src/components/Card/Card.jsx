@@ -25,6 +25,8 @@ const Card = () => {
             fontWeight={["500"]}
             mt={['10px']}
           >
+            <span>I'm</span>
+            <br />
             Nirmal Kumar
           </Text>
         </Box>

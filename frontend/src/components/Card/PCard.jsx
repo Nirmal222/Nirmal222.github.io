@@ -3,14 +3,16 @@ import React from 'react';
 import { BiShow } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
 
-const PCard = ({url,title}) => {
+const PCard = ({url,title,descp,wurl,gurl}) => {
     return (
-        <Box  w={['15rem','15rem','20rem']} margin={'auto'} className='with-linear-gradient' bg={'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'} h={'fit-content'} borderRadius={'5%'} p={'.5%'}>
-            <Image src={url}/>
-            <Text fontWeight={'600'} fontSize={'2rem'} textAlign={'center'} color={'white'}>{title}</Text>
-            <Flex>
-            <Button w={['1rem','2rem']} display={'flex'}  m={'auto'}><BiShow className='button_show'/></Button>
-            <Button w={['1rem','2rem']} display={'flex'} m={'auto'}><BsGithub className='button_git'/></Button>
+        <Box  w={['15rem','12rem','15rem','20rem']} p={'1rem'} margin={'auto'} className='with-linear-gradient' bg={'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'} h={'fit-content'} borderRadius={'7%'} >
+            <Image borderRadius={'15px'} src={url} w={'100%'}/>
+            <Text fontWeight={700} fontSize={'1.5rem'} textAlign={'center'} color={'white'}>{title}</Text>
+            <Text fontSize={[".7rem",".7rem",'1rem']} color={'white'} w={'100%'} textAlign={'center'}>{descp}</Text>
+            <Flex pt={3}>
+
+            <Button w={['1rem','2rem']} display={'flex'}  m={'auto'}> <a href={wurl}><BiShow className='button_show'/></a> </Button>
+            <Button w={['1rem','2rem']} display={'flex'} m={'auto'}> <a href={gurl}><BsGithub className='button_git'/></a> </Button>
             </Flex>
         </Box>
     );

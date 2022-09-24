@@ -186,8 +186,8 @@ const AboutMe = () => {
                 backgroundImage={[
                   "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
                 ]}
-                w={["15rem", "6rem", "6rem", "10rem"]}
-                h={["15rem", "6rem", "6rem", "10rem"]}
+                w={["15rem", "6rem", "6rem", "6rem","10rem"]}
+                h={["15rem", "6rem", "6rem", "6rem","10rem"]}
                 borderRadius={"5%"}
               >
                 <Box>

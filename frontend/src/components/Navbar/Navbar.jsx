@@ -3,6 +3,8 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { HiDownload } from "react-icons/hi"
+import resume from "../../utils/resume.pdf"
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
 
@@ -31,7 +33,7 @@ const Navbar = () => {
                 <Text><Link activeClass="active" to="skills" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}>Skills</Link></Text>
                 <Text><Link activeClass="active" to="projects" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}>Projects</Link></Text>
                 <Text><Link activeClass="active" to="contact" spy={true} offset={-50} smooth={true}  duration={700} cursor={'pointer'}>Contact</Link></Text>
-                <Text>Resume</Text>
+                <Text display={'flex'} bg={'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'} color={'white'} borderRadius={'7px'} p={1} position={'relative'} bottom={1} alignItems={'center'}><a download href={resume}>Resume</a><HiDownload/></Text>
             </Box>
 
             <Box className='ham' display={['block','block','none']} fontSize={['2rem']}>

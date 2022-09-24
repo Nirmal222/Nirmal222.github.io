@@ -1,33 +1,26 @@
 import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
 import React from "react";
-
+import Form from "../components/contact/Form";
+import SocialMedia from "../components/contact/SocialMedia";
 
 const Contact = () => {
-    return <Box height={['none',"none", "100vh", "100vh"]} pb={'2rem'} bg={"black"} id="contact">
+    return <Grid templateRows={'10% 70% 20%'} height={['none',"none", "100vh", "100vh"]} justifyContent={'center'} alignItems={'center'} bg={"black"} id="contact">
     <Text
+      // position={'absolute'}
+      // top={'5rem'}
+      // left={'50%'}
+      // transform={'translate(-50%)'}
       fontSize={"2rem"}
       fontWeight={650}
       textAlign={"center"}
+      pt={5}
       color={"white"}
-      pt={"1rem"}
     >
       Reach me here
     </Text>
-
-    <Grid
-      // templateColumns={["100%", "100%", "100%", "60% 40%"]}
-      gap={["0rem", "0rem", "0rem"]}
-      display={['grid','grid','none']}
-      alignContent={"center"}
-      w={"90vw"}
-      h={"80vh"}
-      m={"auto"}
-      mt={"2rem"}
-      bg={"black"}
-    >
-     
-    </Grid>
-  </Box>
+      <Form/>
+      <SocialMedia border={'1px solid white'}/>
+  </Grid>
 };
 
 export default Contact;

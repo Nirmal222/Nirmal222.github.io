@@ -6,7 +6,7 @@ import { TbApi } from "react-icons/tb"
 import { SiMongodb, SiExpress, SiChakraui, SiJavascript, SiRedux, SiPostman, SiFastapi, SiNpm } from "react-icons/si";
 import { IoLogoNodejs, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 const Skills = () => {
-  return <Box h={['','','100vh','100vh']} pb={['2rem']} bg={"black"} id='skills' >
+  return <Box  pb={['2rem']} bg={"black"} id='skills' >
     <Text textAlign={'center'}  fontWeight={['700']} fontSize={['2rem']} className={'skillsTitle'}>SKILLS</Text>
     <Box mt={5}>
       {/* frontend */}

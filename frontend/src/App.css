@@ -154,15 +154,27 @@ li{
 /* projects */
 
 .button_show{
-  scale: 5;
+  scale: 2;
 }
 .button_git{
-  scale: 3;
-}
-.with-linear-gradient {
-  border-style: solid;
-  border-width: 10px;
-  border-color: #282C35;
-  /* border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1; */
+  scale: 2;
 }
 
+.contactIcons{
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  margin: auto;
+  align-items: center;
+}
+label{
+  color:white;
+}
+.inputs{
+  height: 40px;
+  border-radius: 7px;
+}
+.inputst{
+  height: 80px;
+  border-radius: 7px;
+}
