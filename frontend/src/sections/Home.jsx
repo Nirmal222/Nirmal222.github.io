@@ -36,6 +36,7 @@ const Home = () => {
       </Box> */}
 
       <Box position={"absolute"} left={['50%','50%','0%','0%']} transform={['translate(-45%)','translate(-45%)','none','none']} top={['60vh','73vh','36%',"36%"]} >
+        {/* Hello Im Nirmal  */}
         <Profile />
       </Box>
 
@@ -43,7 +44,9 @@ const Home = () => {
       <Box position={"absolute"} left={["53%","52%",'50%','50%',"50%","50%"]} top={"25%"}
       transform={["translate(-50%)"]}
       >
+        {/* Profile photo  */}
         <Card />
+        
       </Box>
 
       <Box
@@ -53,12 +56,14 @@ const Home = () => {
         transform={["translate(-50%)"]}
         w={['90vw','50vw','50vw','50vw']}
       >
+        {/* MERN  */}
         <Bcard />
       </Box>
 
      <Box
      display={['none','none','none','block']}
     >
+      {/* Typewriter effect  */}
       <GifCard/>
      </Box>
 

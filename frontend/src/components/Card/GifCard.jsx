@@ -22,7 +22,7 @@ const GifCard = () => {
     <Box
     position={"absolute"}
     borderRadius={['20px']}
-    top={["45%"]}
+    top={["42%"]}
     right={"5%"}
     fontSize={['3xl','4xl','4xl']}
     fontWeight={700}
@@ -30,7 +30,7 @@ const GifCard = () => {
     >
     <Typewriter
      options={{autoStart:true,loop:true,delay:30,
-     strings:["MERN Stack Developer.","Design Enthusiast.","Innovator."]}}/>
+     strings:["Full Stack Web Developer.","Design Enthusiast.","Innovator."]}}/>
     </Box>
     </Box>
   );

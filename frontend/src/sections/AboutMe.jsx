@@ -37,7 +37,6 @@ const AboutMe = () => {
   ];
   return (
     <Box
-      height={["none", "none", "100vh", "100vh"]}
       pb={"2rem"}
       bg={"#110c11"}
       id="aboutme"
@@ -72,6 +71,7 @@ const AboutMe = () => {
             textAlign={"center"}
             mb={"10px"}
             fontWeight={700}
+            margin="auto"
           >
             Always Looking to solve problems with tech, Putting innovation at
             core of solving the problems. And a Fullstack Engineer holding
@@ -128,7 +128,8 @@ const AboutMe = () => {
         templateColumns={["100%", "100%", "100%", "60% 40%"]}
         gap={["4rem", "4rem", "0rem"]}
         display={["none", "none", "grid"]}
-        alignContent={["center"]}
+        alignContent={"center"}
+        justifyContent={"center"}
         w={"90vw"}
         h={"80vh"}
         m={"auto"}
@@ -141,19 +142,21 @@ const AboutMe = () => {
           display={["none", "none", "block"]}
           templateRows={"20% 80%"}
           gap={"1rem"}
-          // border={["2px solid white"]}
+          justifyContent="center"
         >
           {/* 3rd */}
           <Flex
             alignItems={"center"}
             // display={["none", "none", "none", "flex"]}
+            w={"90%"}
+            margin="auto"
             justifyContent={"center"}
           >
             <Text
               // border={'1px solid white'}
 
               color={"white"}
-              fontSize={["xl", "xl", "lg", "xl"]}
+              fontSize={["xl", "xl", "lg", "lg"]}
               fontWeight={600}
               textAlign={"center"}
             >

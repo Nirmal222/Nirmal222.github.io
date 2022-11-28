@@ -4,7 +4,7 @@ import Form from "../components/contact/Form";
 import SocialMedia from "../components/contact/SocialMedia";
 
 const Contact = () => {
-    return <Grid templateRows={'10% 70% 20%'} height={['none',"none", "100vh", "100vh"]} justifyContent={'center'} alignItems={'center'} bg={"black"} id="contact">
+    return <Grid templateRows={'10% 70% 20%'} justifyContent={'center'} alignItems={'center'} bg={"black"} id="contact">
     <Text
       // position={'absolute'}
       // top={'5rem'}

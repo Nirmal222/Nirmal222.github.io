@@ -34,6 +34,14 @@
 }
 
 
+.ham{
+  color: white;
+}
+
+.hscroll{
+  color: black;
+}
+
 /* Home Page */
 .home{
   /* border: 2px solid white; */
@@ -172,9 +180,12 @@ label{
 }
 .inputs{
   height: 40px;
-  border-radius: 7px;
+  padding-left: 1rem;
+  border-radius: 2px;
 }
 .inputst{
   height: 80px;
-  border-radius: 7px;
+  padding-left: 1rem;
+  border-radius: 2px;
+  
 }

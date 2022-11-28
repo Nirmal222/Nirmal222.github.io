@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -14,6 +15,7 @@
     "gh-pages": "^4.0.0",
     "github-calendar": "^2.3.1",
     "react": "^18.2.0",
+    "react-awesome-shapes": "^0.1.12",
     "react-countup": "^6.3.1",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.3.4",
